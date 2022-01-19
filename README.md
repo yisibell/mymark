@@ -69,7 +69,7 @@ watermark({ content: 'build by elenh' })
 |     font     |           `string`            |                                字号，字体                                 |   '18px Microsoft Yahei'   |
 |  lineHeight  |           `number`            |                                   行高                                    |             25             |
 |  fillStyle   |           `string`            |                                 字体颜色                                  | 'rgba(184, 184, 184, 0.3)' |
-|   content    | `string` 或 `Array of string` | 水印文本内容，当类型是 `Array of string` 时，可做到水平居中换行的文本效果 |       '@aidol/utils'       |
+|   content    | `string` 或 `Array of string` | 水印文本内容，当类型是 `Array of string` 时，可做到水平居中换行的文本效果 |       'mymark'       |
 |    rotate    |           `number`            |                             水印文本旋转角度                              |             20             |
 |    zIndex    |           `number`            |                         生成的水印块的 z-index 值                         |            1024            |
 |   observe    |           `boolean`           |              是否监视 DOM 变更，防止用户恶意删除水印节点 dom              |            true            |
