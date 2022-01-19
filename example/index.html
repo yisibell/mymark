@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>watermark demo</title>
+    <style>
+      #app {
+        height: 95vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">hello watermark!</div>
+    <script src="../dist/mymark.umd.js"></script>
+
+    <script>
+      // MyMark 被暴露到 window
+      const { watermark } = MyMark
+
+      watermark({ content: 'build by elenh' })
+    </script>
+  </body>
+</html>
