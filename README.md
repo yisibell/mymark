@@ -61,7 +61,7 @@ watermark({ content: 'build by elenh' })
 
 |     键名     |             类型              |                                   说明                                    |           默认值           |
 | :----------: | :---------------------------: | :-----------------------------------------------------------------------: | :------------------------: |
-|  container   |    `Selector` 或 `Element`    |                              水印插入的容器                               |        `body` 元素         |
+|  container   |    `Selector` 或 `HTMLElement`    |                              水印插入的容器                               |        `body` 元素         |
 |    width     |           `string`            |                          生成水印 canvas 的 宽度                          |          '400px'           |
 |    height    |           `string`            |                          生成水印 canvas 的 高度                          |          '300px'           |
 |  textAlign   |           `string`            |                       水印文字在水平方向上如何放置                        |          'center'          |
