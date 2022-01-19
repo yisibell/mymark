@@ -1,6 +1,6 @@
 # mymark
 
-A canvas watermark builder. 水印生成工具。
+A canvas watermark builder（水印生成工具）。
 
 # Installation
 
