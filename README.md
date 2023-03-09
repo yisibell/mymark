@@ -1,3 +1,15 @@
+
+<p align="center">
+  <a href="https://www.npmjs.org/package/mymark">
+    <img src="https://img.shields.io/npm/v/mymark.svg">
+  </a>
+  <a href="https://npmcharts.com/compare/mymark?minimal=true">
+    <img src="https://img.shields.io/npm/dm/mymark.svg">
+  </a>
+  <br>
+</p>
+
+
 # mymark
 
 A canvas watermark builder（水印生成工具）。
@@ -74,3 +86,8 @@ watermark({ content: 'build by elenh' })
 |    zIndex    |           `number`            |                         生成的水印块的 z-index 值                         |            1024            |
 |   observe    |           `boolean`           |              是否监视 DOM 变更，防止用户恶意删除水印节点 dom              |            true            |
 |     open     |           `boolean`           |                               是否开启水印                                |            true            |
+
+
+# CHANGE LOG
+
+SEE <a href="./CHANGELOG.md">CHANGE LOG</a>.
