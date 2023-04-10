@@ -1,6 +1,6 @@
 {
   "name": "mymark",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A canvas watermark builder.",
   "main": "dist/mymark.cjs.js",
   "module": "dist/mymark.esm.js",
