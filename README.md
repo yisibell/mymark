@@ -14,6 +14,8 @@
 
 A canvas watermark builder（水印生成工具）。
 
+- [Release Notes](./CHANGELOG.md).
+
 # Installation
 
 ```bash
@@ -87,7 +89,3 @@ watermark({ content: 'build by elenh' })
 |   observe    |           `boolean`           |              是否监视 DOM 变更，防止用户恶意删除水印节点 dom              |            true            |
 |     open     |           `boolean`           |                               是否开启水印                                |            true            |
 
-
-# CHANGE LOG
-
-SEE <a href="./CHANGELOG.md">CHANGE LOG</a>.
